@@ -23,7 +23,7 @@
 @media screen and (min-width: 800px) {
 	.site-branding {
 		float: left;
-		max-width: 30%;
+		max-width: 40%;
 	}
 	.branding-right .site-branding {
 		float: right;
@@ -33,7 +33,7 @@
 @media screen and (min-width: 800px) {
 	.site-navigation {
 		float: right;
-		max-width: 70%;
+		max-width: 60%;
 	}
 	.branding-right .header-layout-1 .site-navigation {
 		float: left;
@@ -51,4 +51,11 @@
 
 .site-header-main {
   padding-bottom: 0;
+}
+
+.custom-logo {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  width: 32px;
 }
