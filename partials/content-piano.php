@@ -29,7 +29,6 @@ $entry_header = trim( ob_get_clean() );
 			<?php get_template_part( 'partials/entry', 'thumbnail' ); ?>
 		<?php endif; ?>
 		<?php get_template_part( 'partials/entry', 'piano-details' ); ?>    
-		<?php get_template_part( 'partials/entry', 'content' ); ?>    
 		<?php get_template_part( 'partials/entry', 'pagination' ); ?>
 	</div>
 
