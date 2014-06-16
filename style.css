@@ -1,0 +1,54 @@
+/**
+ * Theme Name:  Make Utah Pianos
+ * Description: A Child Make Theme for customizing the UtahPianos.com Look and Feel
+ * Version:     1.0.8
+ * License:     GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: make
+ * Template:    Make
+ * Domain Path: /languages/
+ * Tags:        black, blue, green, gray, orange, red, white, yellow, dark, light, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, buddypress, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, photoblogging
+ *
+ * Make WordPress Theme, Copyright 2014 The Theme Foundry
+ * Make is distributed under the terms of the GNU GPL
+ */
+
+@import url("../make/style.css");
+
+.piano-list {
+  font-size: 14px;
+}
+
+
+@media screen and (min-width: 800px) {
+	.site-branding {
+		float: left;
+		max-width: 30%;
+	}
+	.branding-right .site-branding {
+		float: right;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.site-navigation {
+		float: right;
+		max-width: 70%;
+	}
+	.branding-right .header-layout-1 .site-navigation {
+		float: left;
+		text-align: left;
+	}
+	.branding-right .header-layout-3 .site-navigation {
+		float: right;
+		text-align: right;
+	}
+}
+
+.site-content {
+  padding: 0;
+}
+
+.site-header-main {
+  padding-bottom: 0;
+}
