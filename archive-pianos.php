@@ -12,12 +12,12 @@ get_header();
   <h2>Pianos for Sale</h2>
   <table class="piano-list">
     <tr>
-      <th>Photo</th>
-      <th>Brand</th>
-      <th>Price</th>
-      <th>Type</th>
-      <th>Finish</th>
-      <th>Age</th>
+      <th class="piano-cell">Photo</th>
+      <th class="piano-cell">Brand</th>
+      <th class="piano-cell">Price</th>
+      <th class="piano-cell">Type</th>
+      <th class="piano-cell">Finish</th>
+      <th class="piano-cell">Year Made</th>
     </tr>
   <?php if ( have_posts() ) : ?>
   	<?php while ( have_posts() ) : the_post(); ?>

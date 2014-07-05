@@ -59,3 +59,7 @@
   margin: 0px;
   width: 32px;
 }
+
+.piano-cell {
+  white-space:nowrap;
+}
