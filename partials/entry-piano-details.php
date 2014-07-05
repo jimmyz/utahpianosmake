@@ -17,7 +17,7 @@ $image = types_render_field( "photo", array( "alt" => $image_title, "size" => "l
         </div>
         <?php endif; ?>
         <div class="piano-detail">
-          <strong>Price</strong>: <?= types_render_field("price", array("style" => "FIELD_NAME : $ FIELD_VALUE")) ?> 
+          <strong>Price</strong>: $<?= number_format(types_render_field("price", array("style" => "FIELD_NAME : $ FIELD_VALUE"))) ?> 
         </div>
         <div class="piano-detail">
           <strong>Piano Type</strong>: 
