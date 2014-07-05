@@ -31,7 +31,7 @@ $image = types_render_field( "photo", array( "alt" => $image_title, "size" => "l
           <strong>Finish</strong>: <?= types_render_field("wood-finish", array()) ?> 
         </div>
         <div class="piano-detail">
-          <strong>Age</strong>: <?= types_render_field("age", array("style" => "FIELD_NAME : $ FIELD_VALUE")) ?> years
+          <strong>Year Made</strong>: <?= types_render_field("age", array("style" => "FIELD_NAME : $ FIELD_VALUE")) ?>
         </div>
         <p><?php the_content(); ?></p>
       </div>
