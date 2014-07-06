@@ -18,4 +18,21 @@ function is_sold()
   return types_render_field("sold", array("output" => "raw"));
 }
 
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function piano_widget_init() {
+
+	register_sidebar( array(
+		'name' => 'Piano Page Widget',
+		'id' => 'piano_widget',
+		'before_widget' => '<div>',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>',
+	) );
+}
+add_action( 'widgets_init', 'piano_widget_init' );
+
 ?>

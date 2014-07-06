@@ -35,11 +35,16 @@ $image = types_render_field( "photo", array( "alt" => $image_title, "size" => "l
         </div>
         <p><?php the_content(); ?></p>
       </div>
+      <?php if ( dynamic_sidebar('piano_widget') ) : else : endif; ?>
     </div>
 		<div class="builder-text-column">
       <!-- <h3 class="builder-text-title">Photos</h3> -->
 			<div class="builder-text-content">
-		    <?= $image ?>
+		    <?php if($image) : ?>
+          <?= $image ?>
+        <?php else: ?>
+          <img src="<?= get_theme_root_uri()."/makeutahpianos/images/no-image.png" ?>" />
+        <?php endif; ?>
       </div>
 		</div>
 	</div>
